@@ -21,5 +21,5 @@ static string EncryptDecrypt(string inputText, int cryptKey)
 
 static string StartUpPage()
 {
-    return $"On this application you can encrypt text\nand decrypt it with custom encryption values.\n\nYou will be typing a string value\nand a crypto key value\n\nAn example for encrypting a name with a key value of 4 is:\n/encrypt?text=Smith&key=4\nAnd for decrypting:\n/decrypt?text=Wimpl&key=4\n\nAll that you need to change is what follows the = signs\nuntil there is a & symbol";
+    return $"On this application you can encrypt text\nand decrypt it with custom encryption values.\n\nYou will be typing a string value\nand a crypto key value\n\nAn example for encrypting a name with a key value of 4 is:\n/encrypt?text=Smith&key=4\nAnd for decrypting:\n/decrypt?text=Wimpl&key=4\n\nCopy/paste one of the examples in the url\nand change the text/key value to your liking";
 }
